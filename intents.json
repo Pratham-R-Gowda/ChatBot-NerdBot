@@ -1,0 +1,453 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Good morning",
+                "Good afternoon",
+                "Good evening",
+                "How's it going"
+            ],
+            "responses": [
+                "Good morning!",
+                "Good afernoon!",
+                "Good evening!",
+                "I am doing good, how about you ?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Catch you later"
+            ],
+            "responses": [
+                "Goodbye!",
+                "See you later!",
+                "Have a great day!",
+                "Catch you later!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "Much appreciated",
+                "Thanks a lot"
+            ],
+            "responses": [
+                "You're welcome!",
+                "No problem!",
+                "Glad to help!",
+                "Anytime!"
+            ]
+        },
+        {
+            "tag": "name_query",
+            "patterns": [
+                "What is your name?",
+                "Who are you?",
+                "Tell me your name"
+            ],
+            "responses": [
+                "I'm your friendly chatbot!",
+                "You can call me ChatGPT.",
+                "I'm just a helpful assistant!"
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "Can you help me?",
+                "I need help",
+                "Help me out",
+                "Can you assist me?"
+            ],
+            "responses": [
+                "Of course! What do you need help with?",
+                "Sure, I'm here to assist!",
+                "Absolutely, how can I help you?"
+            ]
+        },
+        {
+            "tag": "weather",
+            "patterns": [
+                "What's the weather like?",
+                "Tell me the weather",
+                "Is it sunny today?",
+                "Do I need an umbrella?"
+            ],
+            "responses": [
+                "I can't check the weather right now, but I hope it's nice out!",
+                "You might want to check your local forecast.",
+                "Hopefully it's sunny and bright where you are!"
+            ]
+        },
+        {
+            "tag": "joke",
+            "patterns": [
+                "Tell me a joke",
+                "Make me laugh",
+                "Got any jokes?",
+                "Say something funny"
+            ],
+            "responses": [
+                "Why don’t scientists trust atoms? Because they make up everything!",
+                "I told my computer I needed a break, and now it won’t stop sending me beach pictures.",
+                "Why was the math book sad? Because it had too many problems."
+            ]
+        },
+        {
+            "tag": "feeling",
+            "patterns": [
+                "How are you?",
+                "How's it going?",
+                "How do you feel?"
+            ],
+            "responses": [
+                "I'm just a bunch of code, but I'm feeling helpful!",
+                "Doing great, thanks for asking!",
+                "All systems go!"
+            ]
+        },
+        {
+            "tag": "age_query",
+            "patterns": [
+                "How old are you?",
+                "When were you created?",
+                "What's your age?"
+            ],
+            "responses": [
+                "I'm timeless, built to chat anytime!",
+                "Age is just a number, and mine is digital!",
+                "I was created recently, but I'm wise beyond my lines of code."
+            ]
+        },
+        {
+            "tag": "creator",
+            "patterns": [
+                "Who made you?",
+                "Who created you?",
+                "Who built you?"
+            ],
+            "responses": [
+                "I was created by a team of developers at OpenAI.",
+                "Some brilliant minds built me at OpenAI!",
+                "Engineered by humans, fueled by data."
+            ]
+        },
+        {
+            "tag": "hobby",
+            "patterns": [
+                "What are your hobbies?",
+                "What do you do for fun?",
+                "Do you have hobbies?"
+            ],
+            "responses": [
+                "I enjoy deep conversations and processing text!",
+                "Helping people is my favorite pastime.",
+                "I don't need hobbies, chatting with you is plenty of fun!"
+            ]
+        },
+        {
+            "tag": "favorite_color",
+            "patterns": [
+                "What's your favorite color?",
+                "Do you have a favorite color?",
+                "Which color do you like?"
+            ],
+            "responses": [
+                "I like all colors equally—I'm very inclusive!",
+                "Blue and green are pretty popular among bots!",
+                "Anything that lights up your day!"
+            ]
+        },
+        {
+            "tag": "food",
+            "patterns": [
+                "What's your favorite food?",
+                "Do you eat?",
+                "What do you like to eat?"
+            ],
+            "responses": [
+                "I don't eat, but I hear pizza is amazing!",
+                "I live on electricity and data—yum!",
+                "I'm more into bytes than bites."
+            ]
+        },
+        {
+            "tag": "fun_fact",
+            "patterns": [
+                "Tell me a fun fact",
+                "Give me a random fact",
+                "Say something interesting"
+            ],
+            "responses": [
+                "Did you know octopuses have three hearts?",
+                "Bananas are berries, but strawberries aren’t!",
+                "Humans share about 60% of their DNA with bananas."
+            ]
+        },
+        {
+            "tag": "mood_boost",
+            "patterns": [
+                "I'm sad",
+                "Cheer me up",
+                "I feel down",
+                "Make me feel better"
+            ],
+            "responses": [
+                "I'm here for you. Want to talk about it?",
+                "Sending you virtual hugs!",
+                "You're stronger than you think. Keep going!"
+            ]
+        },
+        {
+            "tag": "motivation",
+            "patterns": [
+                "Motivate me",
+                "Give me motivation",
+                "I need a pep talk"
+            ],
+            "responses": [
+                "You’ve got this! Keep pushing forward.",
+                "Success is just around the corner. Don’t give up!",
+                "Every step you take gets you closer to your goal."
+            ]
+        },
+        {
+            "tag": "language_support",
+            "patterns": [
+                "Do you speak other languages?",
+                "Can you talk in Spanish?",
+                "What languages do you know?"
+            ],
+            "responses": [
+                "I can understand and reply in many languages, including English, Spanish, French, and more!",
+                "Sí, puedo hablar en varios idiomas.",
+                "Languages are my thing! What would you like to try?"
+            ]
+        },
+        {
+            "tag": "time_query",
+            "patterns": [
+                "What time is it?",
+                "Can you tell me the time?",
+                "What's the current time?"
+            ],
+            "responses": [
+                "I can't see the clock right now, but you can check your device for the exact time!",
+                "Time flies when we’re chatting! You might want to check your watch.",
+                "Sorry, I don’t have real-time access—but it’s always chatbot o’clock here!"
+            ]
+        },
+        {
+            "tag": "date_query",
+            "patterns": [
+                "What's the date today?",
+                "Tell me today's date",
+                "Do you know the date?"
+            ],
+            "responses": [
+                "Check your calendar just to be sure, but I believe it's a beautiful day today!",
+                "Some say today is the best day to start something new!",
+                "Dates are great—especially with good conversations."
+            ]
+        },
+        {
+            "tag": "favorite_movie",
+            "patterns": [
+                "What's your favorite movie?",
+                "Do you watch movies?",
+                "Can you suggest a good movie?"
+            ],
+            "responses": [
+                "I love sci-fi—*The Matrix* is a classic!",
+                "I don't watch movies, but I can recommend some popular ones!",
+                "Have you seen *Inception*? It’ll blow your mind!"
+            ]
+        },
+        {
+            "tag": "sing",
+            "patterns": [
+                "Can you sing?",
+                "Sing me a song",
+                "Do you know any songs?"
+            ],
+            "responses": [
+                "🎶 I'm just a bot, standing in front of a user, asking to be helpful 🎶",
+                "I’d sing, but I might crash your speakers 😄",
+                "Why sing when we can chat? But here’s a line: 'Let it code, let it code!'"
+            ]
+        },
+        {
+            "tag": "bored",
+            "patterns": [
+                "I'm bored",
+                "I have nothing to do",
+                "Entertain me",
+                "Any fun ideas?"
+            ],
+            "responses": [
+                "How about a riddle or a joke?",
+                "Want to hear a fun fact?",
+                "Let's play a quick game of 20 questions!"
+            ]
+        },
+        {
+            "tag": "game",
+            "patterns": [
+                "Let's play a game",
+                "Can we play something?",
+                "Game time!"
+            ],
+            "responses": [
+                "Sure! How about a quick riddle or a game of 20 questions?",
+                "Let’s play! Think of something and I’ll try to guess.",
+                "Games are fun! Want a trivia question?"
+            ]
+        },
+        {
+            "tag": "relationship_status",
+            "patterns": [
+                "Are you single?",
+                "Do you have a girlfriend?",
+                "Are you in a relationship?"
+            ],
+            "responses": [
+                "I'm fully committed to helping you!",
+                "It’s complicated... with data.",
+                "I'm in a long-term relationship with knowledge."
+            ]
+        },
+        {
+            "tag": "movie_recommendation",
+            "patterns": [
+                "Recommend me a movie",
+                "What should I watch?",
+                "Suggest a good film",
+                "Any movie suggestions?"
+            ],
+            "responses": [
+                "How about *Inception*? It's a mind-bender!",
+                "If you're into thrillers, try *Gone Girl*.",
+                "For something light, *The Intern* is a great pick!"
+            ]
+        },
+        {
+            "tag": "favorite_genre",
+            "patterns": [
+                "What's your favorite movie genre?",
+                "Do you like action movies?",
+                "Are you into horror films?"
+            ],
+            "responses": [
+                "I love all genres, but sci-fi has a special place in my code!",
+                "Thrillers keep things exciting!",
+                "Horror? Only if I can hide behind the code!"
+            ]
+        },
+        {
+            "tag": "top_rated_movies",
+            "patterns": [
+                "What are the top-rated movies?",
+                "List the best movies of all time",
+                "Which movies are highly rated?"
+            ],
+            "responses": [
+                "Some of the top-rated movies include *The Shawshank Redemption*, *The Godfather*, and *The Dark Knight*.",
+                "*Pulp Fiction* and *Fight Club* are always fan favorites!",
+                "You can’t go wrong with classics like *Forrest Gump* or *Schindler’s List*."
+            ]
+        },
+        {
+            "tag": "latest_movies",
+            "patterns": [
+                "What's new in theaters?",
+                "Any new movie releases?",
+                "Tell me about the latest films"
+            ],
+            "responses": [
+                "Some great new releases are out! Want to hear about action, drama, or comedy?",
+                "Check out the latest from Marvel or some fresh indie flicks!",
+                "New movies are always dropping—want me to recommend something recent?"
+            ]
+        },
+        {
+            "tag": "actor_info",
+            "patterns": [
+                "Who's your favorite actor?",
+                "Do you like Tom Hanks?",
+                "Tell me about an actor"
+            ],
+            "responses": [
+                "Tom Hanks is a legend! Loved him in *Cast Away* and *Forrest Gump*.",
+                "So many talented actors—anyone in particular you're curious about?",
+                "I can tell you all about an actor’s filmography. Just name one!"
+            ]
+        },
+        {
+            "tag": "movie_rating",
+            "patterns": [
+                "Is this movie good?",
+                "How's the rating for *Inception*?",
+                "Should I watch *The Matrix*?"
+            ],
+            "responses": [
+                "*Inception* is highly rated and a fan favorite!",
+                "*The Matrix* is a sci-fi classic—you won’t regret watching it!",
+                "That movie has solid reviews, worth checking out!"
+            ]
+        },
+        {
+            "tag": "movie_plot",
+            "patterns": [
+                "What's *Interstellar* about?",
+                "Can you explain the plot of *The Prestige*?",
+                "Tell me the story of *Titanic*"
+            ],
+            "responses": [
+                "*Interstellar* follows astronauts traveling through a wormhole in search of a new home for humanity.",
+                "*The Prestige* is about two rival magicians competing for the ultimate illusion.",
+                "*Titanic* is a tragic love story set aboard the ill-fated ship in 1912."
+            ]
+        },
+        {
+            "tag": "movie_genre_suggestion",
+            "patterns": [
+                "Can you suggest a movie?",
+                "I want to watch something good",
+                "Recommend a movie to watch",
+                "What movie should I watch tonight?"
+            ],
+            "responses": [
+                "Sure! What genre are you in the mood for? Action, comedy, drama, horror, sci-fi?",
+                "I'd love to help! Do you feel like watching a comedy, thriller, romance, or something else?",
+                "Absolutely! Just let me know the genre you're interested in—I've got plenty of picks!",
+                "Let’s narrow it down—are you in the mood for something funny, intense, or heartwarming?"
+            ]
+        },
+        {
+            "tag": "indian_actor_recommendation",
+            "patterns": [
+                "Tell me about Indian actors",
+                "Can you suggest movies with Indian actors?",
+                "I like Bollywood stars",
+                "Recommend me a movie with an Indian actor",
+                "Who's a good Indian actor?",
+                "Suggest some Indian movies"
+            ],
+            "responses": [
+                "Sure! If you're into action, try a movie with Hrithik Roshan like *War* or *Vikram Vedha*.",
+                "You might like Shah Rukh Khan in *Chak De! India* or *Pathaan*. Total classics!",
+                "Check out *3 Idiots* starring Aamir Khan—funny and heartwarming!",
+                "Ranbir Kapoor’s *Barfi!* is a great watch if you want something emotional and artistic.",
+                "If you’re into intense performances, check out Nawazuddin Siddiqui in *Gangs of Wasseypur*.",
+                "Deepika Padukone shines in *Piku* and *Padmaavat*. Highly recommended!"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+os
+nltk
+streamlit
+ssl
+pandas
+numpy
